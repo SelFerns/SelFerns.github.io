@@ -65,25 +65,35 @@
     margin-bottom: 3rem;
 }
 
-#skill-set .grid-container{
+#skill-set .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr); /* Adjust column count as needed */
+    gap: 20px; /* Adjust gap between grid items */
 }
 
-#skill-set .grid-item1{
+#skill-set .grid-item{
     height: 300px;
     width: 285px;
     border-radius: 5px;
     background-color: #345086;
-
 }
 
-.skill-icon{
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.skill-icon {
     width: 80px;
-    height: 90px;
+    height: 80px;
     background-color: aliceblue;
-    position: relative;
-    top: 20px;
-    left: 20px;
     border-radius: 4px;
+    margin-top: 20px;
+}
+
+.skill-name{
+    margin-top: 20px;
+    color: #FFEE4C;
 }
