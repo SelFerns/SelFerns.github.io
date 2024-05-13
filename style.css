@@ -97,3 +97,18 @@
     margin-top: 20px;
     color: #FFEE4C;
 }
+
+.projects-style > h2{
+    margin-top: 5rem;
+    color: #FFED51;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+#projects .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
