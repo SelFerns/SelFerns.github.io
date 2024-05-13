@@ -1,0 +1,57 @@
+.hero-background{
+    background-image: url(./images/Mountains1.gif);
+    height: 40vh;
+    object-fit: contain;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-heading{
+    width: 750px;
+}
+
+.aboutme-style > h2{
+    margin-top: 2rem;
+    color: #FFED51;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px; /* Adjust the gap between image and text */
+    align-items: start; /* Align items vertically */
+    width: 865px;
+    margin: 0 265px;
+}
+
+.grid-container > img{
+    width: 280px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.grid-item1 {
+    max-width: 100%; /* Ensure the image doesn't exceed the container */
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme .btn{
+    background-color: #FFEE4C;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 155px;
+    height: 40px;
+}
