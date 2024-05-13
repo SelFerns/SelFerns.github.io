@@ -22,7 +22,7 @@
     text-decoration: underline;
 }
 
-.grid-container {
+#aboutme .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px; /* Adjust the gap between image and text */
@@ -38,7 +38,7 @@
     border-radius: 3px;
 }
 
-.grid-item1 {
+#aboutme .grid-item1 {
     max-width: 100%; /* Ensure the image doesn't exceed the container */
 }
 
@@ -54,4 +54,36 @@
     border-radius: 20px;
     width: 155px;
     height: 40px;
+    align-self: baseline;
+}
+
+.skill-set-style > h2{
+    margin-top: 5rem;
+    color: #FFED51;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+#skill-set .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#skill-set .grid-item1{
+    height: 300px;
+    width: 285px;
+    border-radius: 5px;
+    background-color: #345086;
+
+}
+
+.skill-icon{
+    width: 80px;
+    height: 90px;
+    background-color: aliceblue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 4px;
 }
