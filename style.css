@@ -17,10 +17,10 @@
   width: 750px;
 }
 
-.aboutme-wrapper{
-    display: flex;
-    justify-content: center;
-    margin-left: 85px;
+.aboutme-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 85px;
 }
 
 .aboutme-style > h2 {
@@ -37,6 +37,10 @@
   align-items: start; /* Align items vertically */
   width: 865px;
   margin: 0 265px;
+}
+
+.aboutme-wrapper .grid-item2 h4 span {
+  color: #ffe703;
 }
 
 .grid-container > img {
@@ -71,12 +75,12 @@
 
 #skill-set .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 #skill-set .grid-item {
-  height: 300px;
+  height: 350px;
   width: 285px;
   border-radius: 5px;
   background-color: #345086;
@@ -153,9 +157,9 @@
   font-style: normal;
 }
 
-footer{
-    font-family: "Neuton", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 45px !important;
+footer {
+  font-family: "Neuton", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px !important;
 }
