@@ -1,5 +1,13 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-background {
-  background-image: url(./images/Mountains1.gif);
+  background-image: url(./images/Mountains-crop.gif);
   height: 40vh;
   width: 100%;
   object-fit: contain;
@@ -24,7 +32,7 @@
 }
 
 .aboutme-style > h2 {
-  margin-top: 2rem;
+  margin: 2rem;
   color: #ffed51;
   text-align: center;
   text-decoration: underline;
