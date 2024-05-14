@@ -17,6 +17,12 @@
   width: 750px;
 }
 
+.aboutme-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+}
+
 .aboutme-style > h2 {
   margin-top: 2rem;
   color: #ffed51;
@@ -38,10 +44,6 @@
   height: 310px;
   object-fit: cover;
   border-radius: 3px;
-}
-
-#aboutme .grid-item1 {
-  max-width: 100%; /* Ensure the image doesn't exceed the container */
 }
 
 .grid-item2 {
@@ -69,8 +71,8 @@
 
 #skill-set .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust column count as needed */
-  gap: 20px; /* Adjust gap between grid items */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
 }
 
 #skill-set .grid-item {
